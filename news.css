@@ -1,0 +1,211 @@
+body{
+    text-align: center !important;
+    background-color: rgb(211, 211, 211) !important;
+    
+}
+
+header{
+    background-color:   #05445e;
+    border-bottom:2px solid white;
+}
+
+.container-header{
+    display: grid;
+    grid-template-columns:  2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-family: 'Josefin Sans';
+    text-shadow: 1px 1px black;
+    padding: 1.8em;
+    color: white;
+}
+
+.top p{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 2vh;
+    font-size: 1.8rem;
+}
+
+.top img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* NAVBAR */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#d4f1f4;
+    border-bottom: 2px solid white;
+    font-size: 1rem;
+    color: black;
+  }
+  
+  li {
+    float: left;
+  }
+
+  #date{
+      float: right;
+      padding: 10px;
+      color: black;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  li a:hover {
+    background-color: #189ab4;
+    color:white;
+    text-decoration: none;
+  }
+
+.navbar p{
+    margin-top: 0vh !important;
+    margin-bottom: 0vh !important;
+}
+
+.navbar a{
+    color:rgb(255, 255, 255) !important;
+}
+
+
+marquee{
+    border-top: 3px solid rgb(58, 56, 54);
+    border-bottom: 3px solid rgb(58, 56, 54);
+    background-color: white;
+    color: #333333;
+    font-weight: bold;
+}
+
+
+
+#current{
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    font-family: 'Righteous', cursive !important;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px white; 
+}
+
+
+#edition{
+    font-size:4em;
+    margin-bottom: 10vh;
+}
+
+
+
+#bottom{
+    display: inline-flex;
+}
+
+.sides{
+    width:24vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#past{
+    text-align: center !important;
+    font-family: 'Righteous', cursive !important;
+}
+
+#p1{
+    margin-top: 2vh;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#p2{
+    font-size: 1.2em;
+    padding-top: 1vh !important;
+}
+
+#oldyears{
+    display:inline-flex;
+    background-color: red;
+    padding: .1rem;
+}
+
+#oldyears button{
+    margin-top:2.4vh;
+    border: rgb(114, 37, 37) 1px solid;  
+}
+
+#oldyears p{
+    padding:1em;
+}
+
+
+
+#modal1{
+    background-color: white;
+    padding: 1em;
+    width:20vw;
+    display: none;
+    border: 1px solid grey;
+    box-shadow: 0vw .1vw .1vw grey;
+    margin-top:2vh;
+    font-family: 'Righteous', cursive !important;
+    margin-left: 2vw;
+}
+
+#modal2{
+    background-color: white;
+    padding: 1em;
+    width:20vw;
+    margin-left: .35vw;
+    display: none;
+    border: 1px solid grey;
+    box-shadow: 0vw .1vw .1vw grey;
+    margin-top:2vh;
+    font-family: 'Righteous', cursive !important;
+    margin-left: 2vw;
+}
+
+#modal3{
+    background-color: white;
+    padding: 1em;
+    width:20vw;
+    margin-left: .35vw;
+    display: none;
+    border: 1px solid grey;
+    box-shadow: 0vw .1vw .1vw grey;
+    margin-top:2vh;
+    font-family: 'Righteous', cursive !important;
+    margin-left: 2vw;
+}
+
+#modal4{
+    background-color: white;
+    padding: 1em;
+    width:20vw;
+    margin-left: .35vw;
+    display: none;
+    border: 1px solid grey;
+    box-shadow: 0vw .1vw .1vw grey;
+    margin-top:2vh;
+    font-family: 'Righteous', cursive !important;
+    margin-left: 2vw;
+}
+
+footer{
+    height: 26vh;
+    text-align: center;
+    background-color: #05445e;
+    width:100vw;
+    color: whitesmoke;
+    margin-top: 5vh;
+}
+
+#foot{
+   padding-top: 6vh;
+}
