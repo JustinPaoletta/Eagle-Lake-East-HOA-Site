@@ -157,52 +157,52 @@ marquee{
 #modal1{
     background-color: white;
     padding: 1em;
-    width:20vw;
+    width:26vw;
     display: none;
     border: 1px solid grey;
     box-shadow: 0vw .1vw .1vw grey;
     margin-top:2vh;
     font-family: 'Righteous', cursive !important;
-    margin-left: 2vw;
+    margin-left: -1vw;
 }
 
 #modal2{
     background-color: white;
     padding: 1em;
-    width:20vw;
+    width:26vw;
     margin-left: .35vw;
     display: none;
     border: 1px solid grey;
     box-shadow: 0vw .1vw .1vw grey;
     margin-top:2vh;
     font-family: 'Righteous', cursive !important;
-    margin-left: 2vw;
+    margin-left: -1vw;
 }
 
 #modal3{
     background-color: white;
     padding: 1em;
-    width:20vw;
+    width:26vw;
     margin-left: .35vw;
     display: none;
     border: 1px solid grey;
     box-shadow: 0vw .1vw .1vw grey;
     margin-top:2vh;
     font-family: 'Righteous', cursive !important;
-    margin-left: 2vw;
+    margin-left: -1vw;
 }
 
 #modal4{
     background-color: white;
     padding: 1em;
-    width:20vw;
+    width:26vw;
     margin-left: .35vw;
     display: none;
     border: 1px solid grey;
     box-shadow: 0vw .1vw .1vw grey;
     margin-top:2vh;
     font-family: 'Righteous', cursive !important;
-    margin-left: 2vw;
+    margin-left: -1vw;
 }
 
 footer{
@@ -216,4 +216,45 @@ footer{
 
 #foot{
    padding-top: 6vh;
+}
+
+
+@media screen 
+  and (min-width: 800px) 
+  and (max-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+}
+
+
+@media screen 
+  and (min-width: 100px) 
+  and (max-width: 799px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+
+
+  }
+
+
+
+@media only screen  
+  and (max-device-width: 1050px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    #bottom{
+        display: inline-grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+}
+
+@media only screen  
+  and (max-device-width: 1200px)
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (orientation: landscape) {
+
+
 }
