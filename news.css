@@ -104,13 +104,19 @@ marquee{
 
 
 #bottom{
-    display: inline-flex;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .sides{
     width:24vw;
     margin-left: 5vw;
     margin-right: 5vw;
+}
+
+#ideas{
+
 }
 
 #past{
@@ -130,14 +136,16 @@ marquee{
 }
 
 #oldyears{
-    display:inline-flex;
-    background-color: red;
+    display:inline-flexbox;
     padding: .1rem;
 }
 
-#oldyears button{
-    margin-top:2.4vh;
-    border: rgb(114, 37, 37) 1px solid;  
+#oldyears p{
+    margin-top:2vh;
+    border: rgb(114, 37, 37) 1px solid; 
+    background-color: rgb(206, 29, 29); 
+    font-size: .8rem;
+    color:white;
 }
 
 #oldyears p{
