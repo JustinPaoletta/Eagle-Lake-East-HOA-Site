@@ -93,6 +93,7 @@ marquee{
     background-color: white;
     color: #333333;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 .container-content{
@@ -258,8 +259,6 @@ footer{
 
     }
 
-
-
   }
 
 
@@ -315,6 +314,18 @@ footer{
     }
     .container-content{
         margin-left: 0vw !important;
+    }
+
+    #boardmeetings p{
+        font-size: 1.6em !important;
+    }
+
+    #arcmeetings p{
+        font-size: 1.4em;
+    }
+
+    #violationsmeetings p{
+        font-size: 1.4em;
     }
 
 }

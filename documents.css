@@ -99,7 +99,6 @@ marquee{
    
 }
 
-
 #content{
     margin-top: 14vh;
     text-align: left;
@@ -115,6 +114,10 @@ marquee{
     background-color:white;
 }
 
+#content strong{
+    font-size: 1.4rem;
+}
+
 
 #date{
     text-align: right;
@@ -124,7 +127,7 @@ marquee{
     margin-top: 4vh;
     text-align: center;
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
 }
 
 ul{
@@ -153,7 +156,7 @@ footer{
     }
 
     #content{
-        width:70vw;
+        width:80vw;
     }
 
 }

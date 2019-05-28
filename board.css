@@ -553,6 +553,10 @@ footer{
         font-family: 'Righteous', cursive;
     }
 
+    #violations p{
+        font-size: 1.5rem;
+    }
+
 }
 
 @media only screen  
