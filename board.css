@@ -560,6 +560,51 @@ footer{
   and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: landscape) {
 
+    #hamburger{
+        display: block;
+        background-color: #d4f1f4;
+        width:100vw;
+    }
+
+    .fas{
+        margin-top:1vh;
+        margin-bottom: 1vh;
+        margin-left: -85vw;
+        font-size: 2.5rem;
+    }
+
+    #conheader{
+        padding: 4em;
+    }
+
+    .top p{
+        font-size: 2.1rem;
+    }
+
+    .container-navbar{
+        display:none;
+    }
+
+    #conportrait{
+        display:none;
+        padding:.5rem;
+    }
+
+    #conportrait ul{
+        padding:1rem;
+        background-color: #05445e;
+        font-size: 2rem;
+    }
+
+    #conportrait li{
+        float: none;
+    }
+
+    #conportrait a{
+        color:white !important;
+
+    }
+
     .container-board{
         display:inline-block;
         margin-left: 0vw !important;
