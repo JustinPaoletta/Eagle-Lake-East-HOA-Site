@@ -502,6 +502,53 @@ footer{
 
     }
 
+    marquee{
+        font-size: 2rem;
+    }
+
+    .container-main{
+        display: grid;
+        grid-template-columns:  1fr 1fr ;
+        grid-template-rows: repeat (4, 1fr);
+        grid-gap: 1rem;
+        width: 80vw;
+        margin-left: 10vw;
+    
+    }
+
+    #b3{
+        background-color: #189ab4;
+    }
+    
+    #b4{
+        background-color:#d4f1f4;
+    }
+    
+    #b5{
+        background-color:#d4f1f4;
+    }
+    
+    #b6{
+        background-color: #189ab4;
+    }
+
+    .block p{
+        padding:.5rem;
+        font-size:2rem;
+    }
+
+    #statement{
+        font-size: 1.6rem;
+        margin-bottom: 5vh;
+        padding:2rem;
+    }
+
+    footer{
+        
+        font-size: 1.4rem;
+        padding:3rem;
+    }
+
 }
 
 @media only screen  
