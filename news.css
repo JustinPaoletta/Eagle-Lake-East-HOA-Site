@@ -93,6 +93,7 @@ marquee{
     background-color: white;
     color: #333333;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 
@@ -385,9 +386,23 @@ footer{
     }
 
     #bottom{
-        display: inline-grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: inline-block;
+        /* grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr; */
+    }
+
+    .sides{
+        width:60vw;
+        margin-top: 8vh;
+    }
+
+    #past{
+        
+        margin-bottom: 6vh;
+    }
+
+    #oldyears p{
+      font-size: 1.2rem;
     }
 
 }
