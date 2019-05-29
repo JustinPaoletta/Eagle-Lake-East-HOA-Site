@@ -47,7 +47,7 @@ ul {
     overflow: hidden;
     background-color:#d4f1f4;
     border-bottom: 2px solid white;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: black;
   }
   
@@ -102,7 +102,7 @@ marquee{
 
 #content{
     margin-top: 14vh;
-    text-align: left;
+    text-align: center !important;
     width: 40vw;
     background-color: white;
     padding:4em;
@@ -128,7 +128,9 @@ marquee{
     margin-top: 2vh;
     text-align: center;
     font-weight: bold;
-    font-size: 1.9rem;
+    font-size: 2.4rem;
+    font-family: monospace;
+    text-decoration: underline;
 }
 
 ul{
@@ -159,6 +161,8 @@ footer{
     #content{
         width:90vw;
     }
+
+    
 
 }
 
