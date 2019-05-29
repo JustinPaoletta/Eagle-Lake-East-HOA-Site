@@ -217,17 +217,14 @@ marquee{
 }
 
 footer{
-    height: 26vh;
     text-align: center;
     background-color: #05445e;
     width:100vw;
     color: whitesmoke;
     margin-top: 5vh;
+    padding:3rem; 
 }
 
-#foot{
-   padding-top: 6vh;
-}
 
 
 
@@ -269,7 +266,32 @@ footer{
   and (max-width: 1280px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 
-  
+    #bottom{
+        display: inline-block;
+        /* grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr; */
+    }
+
+    .sides{
+        width:60vw;
+        margin-top: 8vh;
+    }
+
+    #modal1{
+        width:62vw;
+    }
+
+    #modal2{
+        width:62vw;
+    }
+
+    #modal3{
+        width:62vw;
+    }
+
+    #modal4{
+        width:62vw;
+    }
 
 }
 
@@ -324,6 +346,25 @@ footer{
     #conportrait a{
         color:white !important;
 
+    }
+
+    object{
+        width:480px;
+    }
+
+    #edition{
+        font-size: 2.8rem;
+    }
+
+    #bottom{
+        display: inline-block;
+        /* grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr; */
+    }
+
+    .sides{
+        width:60vw;
+        margin-top: 8vh;
     }
 
 
@@ -401,8 +442,36 @@ footer{
         margin-bottom: 6vh;
     }
 
+    #p1{
+        font-size: 3rem;
+    }
+
+    #p2{
+        font-size: 2.4rem;
+    }
+
+    #ideas img{
+        width:16vw !important;
+    }
+
     #oldyears p{
-      font-size: 1.2rem;
+      font-size: 1.4rem;
+    }
+
+    #modal1{
+        width:62vw;
+    }
+
+    #modal2{
+        width:62vw;
+    }
+
+    #modal3{
+        width:62vw;
+    }
+
+    #modal4{
+        width:62vw;
     }
 
 }
@@ -441,7 +510,7 @@ footer{
     #conportrait ul{
         padding:1rem;
         background-color: #05445e;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     #conportrait li{
@@ -456,5 +525,49 @@ footer{
     .container-content{
         margin-left: 0vw !important;
     }
+
+
+    #bottom{
+        display: inline-block;
+        /* grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr; */
+    }
+
+    .sides{
+        width:60vw;
+        margin-top: 8vh;
+    }
     
+    #modal1{
+        width:62vw;
+        font-size: 2rem;
+    }
+
+    #modal2{
+        width:62vw;
+        font-size: 2rem;
+    }
+
+    #modal3{
+        width:62vw;
+        font-size: 2rem;
+    }
+
+    #modal4{
+        width:62vw;
+        font-size: 2rem;
+    }
+
+
+    #oldyears p{
+        font-size: 1.4rem;
+      }
+
+    #p1{
+        font-size: 2.6rem;
+    }
+
+    #p2{
+        font-size: 2rem;
+    }
 }
