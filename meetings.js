@@ -13,14 +13,3 @@ $(window).resize(function(){
     
 });
 
-$("#joinlink").click(function() {
-    $("#emailform").toggle();
-    $("#notform").toggle();
-
-});
-
-$("#close").click(function() {
-    $("#emailform").toggle();
-    $("#notform").toggle();
-
-});
