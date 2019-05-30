@@ -127,6 +127,14 @@ marquee{
     color:white;
 }
 
+#emailform{
+    position: absolute;
+    z-index: 2;
+    background-color: #d4f1f4;
+    width: 100vw;
+    height: 100vh;
+}
+
 #arcmeetings{
     padding:3em;
     margin-top: 9vh;
