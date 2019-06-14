@@ -74,6 +74,7 @@ ul {
     background-color: #189ab4;
     color:white;
     text-decoration: none;
+   
   }
 
 .navbar p{
@@ -100,6 +101,7 @@ marquee{
    
 }
 
+
 #content{
     margin-top: 14vh;
     text-align: center !important;
@@ -109,6 +111,7 @@ marquee{
     margin-bottom: 8vh;
     box-shadow: 0vw 1vw 1vw black;
     margin: 2vw;
+    font-family: 'Catamaran', sans-serif;
 }
 
 
@@ -128,11 +131,12 @@ marquee{
     font-weight: bold;
     font-size: 2.8rem;
     font-family: monospace;
-    text-decoration: underline;
+   
 }
 
 ul{
     list-style: none;
+    
 }
 
 
