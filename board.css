@@ -28,8 +28,8 @@ body{
 }
 
 .top img{
-    max-width: 100%;
-    max-height: 100%;
+    width: 140px;
+    height: 110px;
 }
 
 
@@ -151,11 +151,10 @@ marquee{
 
 .container-arc{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     text-align: center;
     border-radius: .5em;
-   
     font-family: 'Josefin Sans';
     grid-gap: 2em;
     color: rgb(0, 0, 0);
@@ -291,7 +290,7 @@ footer{
         display:grid;
         margin-left: 8vw;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 
     .container-arc img{
@@ -420,7 +419,7 @@ footer{
         display:grid;
         margin-left: 8vw;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
     }
 
     .container-arc img{
@@ -472,6 +471,10 @@ footer{
 
     .top p{
         font-size: 2.1rem;
+    }
+
+    .top img{
+        margin-top: 2vh;
     }
 
     .container-navbar{
@@ -553,12 +556,57 @@ footer{
         font-family: 'Righteous', cursive;
     }
 
+    #violations p{
+        font-size: 1.5rem;
+    }
+
 }
 
 @media only screen  
   and (max-device-width: 1200px)
   and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: landscape) {
+
+    #hamburger{
+        display: block;
+        background-color: #d4f1f4;
+        width:100vw;
+    }
+
+    .fas{
+        margin-top:1vh;
+        margin-bottom: 1vh;
+        margin-left: -85vw;
+        font-size: 2.5rem;
+    }
+
+    #conheader{
+        padding: 4em;
+    }
+
+    .container-navbar{
+        display:none;
+    }
+
+    #conportrait{
+        display:none;
+        padding:.5rem;
+    }
+
+    #conportrait ul{
+        padding:1rem;
+        background-color: #05445e;
+        font-size: 1.2rem;
+    }
+
+    #conportrait li{
+        float: none;
+    }
+
+    #conportrait a{
+        color:white !important;
+
+    }
 
     .container-board{
         display:inline-block;
