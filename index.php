@@ -162,7 +162,7 @@
 
 
                 <div class="block" id="b7">
-                        <a href="https://client.spacecoastproperty.com/"><img class="icons" src="21jR4eDSy8L.png">
+                        <a href="https://client.spacecoastproperty.com/"><img  class="icons" src="21jR4eDSy8L.png">
                                 <p>SCPM LOGIN</p>
                         </a>
                 </div>

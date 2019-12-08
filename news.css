@@ -71,7 +71,7 @@ ul {
   }
   
   li a:hover {
-    background-color: #189ab4;
+    background-color: rgb(61, 61, 61);
     color:white;
     text-decoration: none;
   }
@@ -108,10 +108,12 @@ marquee{
 
 #edition{
     font-size:4em;
-    margin-bottom: 10vh;
+    margin-bottom: 2vh !important;
 }
 
-
+#courtesy{
+    
+}
 
 #bottom{
     display: inline-grid;
