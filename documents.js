@@ -1,16 +1,16 @@
-$("#hamburger").click(function() {
+$("#hamburger").click(function () {
     $("#conportrait").toggle();
     $("#conheader").toggle();
 
 });
 
-$(window).resize(function(){
-    
-    if($( window ).width()>799){
+$(window).resize(function () {
+
+    if ($(window).width() > 799) {
         $("#conportrait").css("display", "none");
         $("#conheader").css("display", "grid");
     }
-    
+
 });
 
 
@@ -19,13 +19,13 @@ let date = new Date();
 //Christmas Home Page
 
 if (date.getMonth() === 11 && date.getDate() === 25) {
-    
+
     document.getElementById('header').style.backgroundColor = '#165B33';
     document.getElementById('footer').style.backgroundColor = '#165B33';
     document.getElementById('navcolor').style.backgroundColor = '#BB2528';
     document.getElementById('hamburger').style.backgroundColor = '#BB2528';
     document.getElementById('backgroundMenu').style.backgroundColor = '#165B33';
-    
+
 
 
     document.getElementById('scrollmessage').innerHTML = "MERRY CHRISTMAS AND HAPPY HOLIDAYS!";
@@ -44,9 +44,9 @@ if (date.getMonth() === 0 && date.getDate() === 1) {
     document.getElementById('navcolor').style.backgroundColor = 'silver';
     document.getElementById('hamburger').style.backgroundColor = 'silver';
     document.getElementById('backgroundMenu').style.backgroundColor = 'darkgoldenrod';
-    
-    
-    
+
+
+
 
     document.getElementById('scrollmessage').innerHTML = "HAPPY NEW YEAR!";
 
@@ -178,4 +178,3 @@ if (date.getMonth() === 10 && date.getDate() === 26) {
 
 
 }
-
