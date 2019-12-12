@@ -12,36 +12,57 @@ $(window).resize(function(){
     
 });
 
+//Global Variables
+
 let date = new Date();
+
+let header = document.getElementById('header');
+let footer = document.getElementById('footer');
+let navcolor = document.getElementById('navcolor');
+let hamburger = document.getElementById('hamburger');
+let backgroundMenu = document.getElementById('backgroundMenu');
+let b1 = document.getElementById('b1');
+let b2 = document.getElementById('b2');
+let b3 = document.getElementById('b3');
+let b4 = document.getElementById('b4');
+let b5 = document.getElementById('b5');
+let b6 = document.getElementById('b6');
+let b7 = document.getElementById('b7');
+let b8 = document.getElementById('b8');
+let scrollmessage = document.getElementById('scrollmessage');
+let eagle = document.getElementById('eagle');
+
+
 
 //Christmas Home Page
 
 if (date.getMonth() === 11 && date.getDate() === 25) {
-    document.getElementById('header').style.backgroundColor = '#165B33';
-    document.getElementById('footer').style.backgroundColor = '#165B33';
-    document.getElementById('navcolor').style.backgroundColor = '#BB2528';
-    document.getElementById('hamburger').style.backgroundColor = '#BB2528';
-    document.getElementById('backgroundMenu').style.backgroundColor = '#165B33';
-    document.getElementById('b1').classList.replace('block', 'holidayblock');
-    document.getElementById('b2').classList.replace('block', 'holidayblock');
-    document.getElementById('b3').classList.replace('block', 'holidayblock');
-    document.getElementById('b4').classList.replace('block', 'holidayblock');
-    document.getElementById('b5').classList.replace('block', 'holidayblock');
-    document.getElementById('b6').classList.replace('block', 'holidayblock');
-    document.getElementById('b7').classList.replace('block', 'holidayblock');
-    document.getElementById('b8').classList.replace('block', 'holidayblock');
-    document.getElementById('b1').style.backgroundColor = "#BB2528";
-    document.getElementById('b2').style.backgroundColor = "#146B3A";
-    document.getElementById('b3').style.backgroundColor = "#BB2528";
-    document.getElementById('b4').style.backgroundColor = "#146B3A";
-    document.getElementById('b5').style.backgroundColor = "#146B3A";
-    document.getElementById('b6').style.backgroundColor = "#BB2528";
-    document.getElementById('b7').style.backgroundColor = "#146B3A";
-    document.getElementById('b8').style.backgroundColor = "#BB2528";
 
-    document.getElementById('scrollmessage').innerHTML = "MERRY CHRISTMAS AND HAPPY HOLIDAYS!";
+    header.style.backgroundColor = '#165B33';
+    footer.style.backgroundColor = '#165B33';
+    navcolor.style.backgroundColor = '#BB2528';
+    hamburger.style.backgroundColor = '#BB2528';
+    backgroundMenu.style.backgroundColor = '#165B33';
+    b1.classList.replace('block', 'holidayblock');
+    b2.classList.replace('block', 'holidayblock');
+    b3.classList.replace('block', 'holidayblock');
+    b4.classList.replace('block', 'holidayblock');
+    b5.classList.replace('block', 'holidayblock');
+    b6.classList.replace('block', 'holidayblock');
+    b7.classList.replace('block', 'holidayblock');
+    b8.classList.replace('block', 'holidayblock');
+    b1.style.backgroundColor = "#BB2528";
+    b2.style.backgroundColor = "#146B3A";
+    b3.style.backgroundColor = "#BB2528";
+    b4.style.backgroundColor = "#146B3A";
+    b5.style.backgroundColor = "#146B3A";
+    b6.style.backgroundColor = "#BB2528";
+    b7.style.backgroundColor = "#146B3A";
+    b8.style.backgroundColor = "#BB2528";
 
-    document.getElementById('eagle').src = 'Santa.png';
+    scrollmessage.innerHTML = "MERRY CHRISTMAS AND HAPPY HOLIDAYS!";
+
+    eagle.src = 'Santa.png';
 
 
 }
@@ -50,31 +71,31 @@ if (date.getMonth() === 11 && date.getDate() === 25) {
 
 
 if (date.getMonth() === 0 && date.getDate() === 1) {
-    document.getElementById('header').style.backgroundColor = 'darkgoldenrod';
-    document.getElementById('footer').style.backgroundColor = 'darkgoldenrod';
-    document.getElementById('navcolor').style.backgroundColor = 'silver';
-    document.getElementById('hamburger').style.backgroundColor = 'silver';
-    document.getElementById('backgroundMenu').style.backgroundColor = 'darkgoldenrod';
-    document.getElementById('b1').classList.replace('block', 'holidayblock');
-    document.getElementById('b2').classList.replace('block', 'holidayblock');
-    document.getElementById('b3').classList.replace('block', 'holidayblock');
-    document.getElementById('b4').classList.replace('block', 'holidayblock');
-    document.getElementById('b5').classList.replace('block', 'holidayblock');
-    document.getElementById('b6').classList.replace('block', 'holidayblock');
-    document.getElementById('b7').classList.replace('block', 'holidayblock');
-    document.getElementById('b8').classList.replace('block', 'holidayblock');
-    document.getElementById('b1').style.backgroundColor = "#E5C67F";
-    document.getElementById('b2').style.backgroundColor = "#C0C0C0";
-    document.getElementById('b3').style.backgroundColor = "#E5C67F";
-    document.getElementById('b4').style.backgroundColor = "#C0C0C0";
-    document.getElementById('b5').style.backgroundColor = "#C0C0C0";
-    document.getElementById('b6').style.backgroundColor = "#E5C67F";
-    document.getElementById('b7').style.backgroundColor = "#C0C0C0";
-    document.getElementById('b8').style.backgroundColor = "#E5C67F";
+    header.style.backgroundColor = 'darkgoldenrod';
+    footer.style.backgroundColor = 'darkgoldenrod';
+    navcolor.style.backgroundColor = 'silver';
+    hamburger.style.backgroundColor = 'silver';
+    backgroundMenu.style.backgroundColor = 'darkgoldenrod';
+    b1.classList.replace('block', 'holidayblock');
+    b2.classList.replace('block', 'holidayblock');
+    b3.classList.replace('block', 'holidayblock');
+    b4.classList.replace('block', 'holidayblock');
+    b5.classList.replace('block', 'holidayblock');
+    b6.classList.replace('block', 'holidayblock');
+    b7.classList.replace('block', 'holidayblock');
+    b8.classList.replace('block', 'holidayblock');
+    b1.style.backgroundColor = "#E5C67F";
+    b2.style.backgroundColor = "#C0C0C0";
+    b3.style.backgroundColor = "#E5C67F";
+    b4.style.backgroundColor = "#C0C0C0";
+    b5.style.backgroundColor = "#C0C0C0";
+    b6.style.backgroundColor = "#E5C67F";
+    b7.style.backgroundColor = "#C0C0C0";
+    b8.style.backgroundColor = "#E5C67F";
 
-    document.getElementById('scrollmessage').innerHTML = "HAPPY NEW YEAR!";
+    scrollmessage.innerHTML = "HAPPY NEW YEAR!";
 
-    document.getElementById('eagle').src = 'newyear.png';
+    eagle.src = 'newyear.png';
 
 
 }
@@ -83,65 +104,65 @@ if (date.getMonth() === 0 && date.getDate() === 1) {
 // // Martin Luther King JR
 
 if (date.getMonth() === 0 && date.getDate() === 20) {
-    document.getElementById('header').style.backgroundColor = '#FFFFFF';
-    document.getElementById('footer').style.backgroundColor = 'black';
-    document.getElementById('conheader').style.color = 'black';
-    document.getElementById('navcolor').style.backgroundColor = 'silver';
-    document.getElementById('hamburger').style.backgroundColor = 'silver';
-    document.getElementById('backgroundMenu').style.backgroundColor = 'black';
-    document.getElementById('b1').classList.replace('block', 'holidayblock');
-    document.getElementById('b2').classList.replace('block', 'holidayblock');
-    document.getElementById('b3').classList.replace('block', 'holidayblock');
-    document.getElementById('b4').classList.replace('block', 'holidayblock');
-    document.getElementById('b5').classList.replace('block', 'holidayblock');
-    document.getElementById('b6').classList.replace('block', 'holidayblock');
-    document.getElementById('b7').classList.replace('block', 'holidayblock');
-    document.getElementById('b8').classList.replace('block', 'holidayblock');
-    document.getElementById('b1').style.backgroundColor = "white";
-    document.getElementById('b2').style.backgroundColor = "#C0C0C0";
-    document.getElementById('b3').style.backgroundColor = "white";
-    document.getElementById('b4').style.backgroundColor = "#C0C0C0";
-    document.getElementById('b5').style.backgroundColor = "#C0C0C0";
-    document.getElementById('b6').style.backgroundColor = "white";
-    document.getElementById('b7').style.backgroundColor = "#C0C0C0";
-    document.getElementById('b8').style.backgroundColor = "white";
 
-    document.getElementById('scrollmessage').innerHTML = "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.";
+    header.style.backgroundColor = '#FFFFFF';
+    footer.style.backgroundColor = 'black';
+    conheader.style.color = 'black';
+    navcolor.style.backgroundColor = 'silver';
+    hamburger.style.backgroundColor = 'silver';
+    backgroundMenu.style.backgroundColor = 'black';
+    b1.classList.replace('block', 'holidayblock');
+    b2.classList.replace('block', 'holidayblock');
+    b3.classList.replace('block', 'holidayblock');
+    b4.classList.replace('block', 'holidayblock');
+    b5.classList.replace('block', 'holidayblock');
+    b6.classList.replace('block', 'holidayblock');
+    b7.classList.replace('block', 'holidayblock');
+    b8.classList.replace('block', 'holidayblock');
+    b1.style.backgroundColor = "white";
+    b2.style.backgroundColor = "#C0C0C0";
+    b3.style.backgroundColor = "white";
+    b4.style.backgroundColor = "#C0C0C0";
+    b5.style.backgroundColor = "#C0C0C0";
+    b6.style.backgroundColor = "white";
+    b7.style.backgroundColor = "#C0C0C0";
+    b8.style.backgroundColor = "white";
 
-    document.getElementById('eagle').src = 'mlk.png';
+    scrollmessage.innerHTML = "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.";
 
+    eagle.src = 'mlk.png';
 
 }
 
 // George Washingtons Birthday
 
 if (date.getMonth() === 1 && date.getDate() === 17) {
-    document.getElementById('header').style.backgroundColor = '#F7002A';
-    document.getElementById('footer').style.backgroundColor = '#F7002A';
-    document.getElementById('conheader').style.color = 'white';
-    document.getElementById('navcolor').style.backgroundColor = '#00358C';
-    document.getElementById('hamburger').style.backgroundColor = '#00358C';
-    document.getElementById('backgroundMenu').style.backgroundColor = '#F7002A';
-    document.getElementById('b1').classList.replace('block', 'holidayblock');
-    document.getElementById('b2').classList.replace('block', 'holidayblock');
-    document.getElementById('b3').classList.replace('block', 'holidayblock');
-    document.getElementById('b4').classList.replace('block', 'holidayblock');
-    document.getElementById('b5').classList.replace('block', 'holidayblock');
-    document.getElementById('b6').classList.replace('block', 'holidayblock');
-    document.getElementById('b7').classList.replace('block', 'holidayblock');
-    document.getElementById('b8').classList.replace('block', 'holidayblock');
-    document.getElementById('b1').style.backgroundColor = "white";
-    document.getElementById('b2').style.backgroundColor = "#00358C";
-    document.getElementById('b3').style.backgroundColor = "white";
-    document.getElementById('b4').style.backgroundColor = "#00358C";
-    document.getElementById('b5').style.backgroundColor = "#00358C";
-    document.getElementById('b6').style.backgroundColor = "white";
-    document.getElementById('b7').style.backgroundColor = "#00358C";
-    document.getElementById('b8').style.backgroundColor = "white";
+    header.style.backgroundColor = '#F7002A';
+    footer.style.backgroundColor = '#F7002A';
+    conheader.style.color = 'white';
+    navcolor.style.backgroundColor = '#00358C';
+    hamburger.style.backgroundColor = '#00358C';
+    backgroundMenu.style.backgroundColor = '#F7002A';
+    b1.classList.replace('block', 'holidayblock');
+    b2.classList.replace('block', 'holidayblock');
+    b3.classList.replace('block', 'holidayblock');
+    b4.classList.replace('block', 'holidayblock');
+    b5.classList.replace('block', 'holidayblock');
+    b6.classList.replace('block', 'holidayblock');
+    b7.classList.replace('block', 'holidayblock');
+    b8.classList.replace('block', 'holidayblock');
+    b1.style.backgroundColor = "white";
+    b2.style.backgroundColor = "#00358C";
+    b3.style.backgroundColor = "white";
+    b4.style.backgroundColor = "#00358C";
+    b5.style.backgroundColor = "#00358C";
+    b6.style.backgroundColor = "white";
+    b7.style.backgroundColor = "#00358C";
+    b8.style.backgroundColor = "white";
 
-    document.getElementById('scrollmessage').innerHTML = "I hope I shall possess firmness and virtue enough to maintain what I consider the most enviable of all titles, the character of an honest man.";
+    scrollmessage.innerHTML = "I hope I shall possess firmness and virtue enough to maintain what I consider the most enviable of all titles, the character of an honest man.";
 
-    document.getElementById('eagle').src = 'george.png';
+    eagle.src = 'george.png';
 
 
 }
@@ -150,32 +171,32 @@ if (date.getMonth() === 1 && date.getDate() === 17) {
 // // Memorial Day
 
 if (date.getMonth() === 4 && date.getDate() === 25) {
-    document.getElementById('header').style.backgroundColor = '#F7002A';
-    document.getElementById('footer').style.backgroundColor = '#F7002A';
-    document.getElementById('conheader').style.color = 'white';
-    document.getElementById('navcolor').style.backgroundColor = '#00358C';
-    document.getElementById('hamburger').style.backgroundColor = '#00358C';
-    document.getElementById('backgroundMenu').style.backgroundColor = '#F7002A';
-    document.getElementById('b1').classList.replace('block', 'holidayblock');
-    document.getElementById('b2').classList.replace('block', 'holidayblock');
-    document.getElementById('b3').classList.replace('block', 'holidayblock');
-    document.getElementById('b4').classList.replace('block', 'holidayblock');
-    document.getElementById('b5').classList.replace('block', 'holidayblock');
-    document.getElementById('b6').classList.replace('block', 'holidayblock');
-    document.getElementById('b7').classList.replace('block', 'holidayblock');
-    document.getElementById('b8').classList.replace('block', 'holidayblock');
-    document.getElementById('b1').style.backgroundColor = "white";
-    document.getElementById('b2').style.backgroundColor = "#00358C";
-    document.getElementById('b3').style.backgroundColor = "white";
-    document.getElementById('b4').style.backgroundColor = "#00358C";
-    document.getElementById('b5').style.backgroundColor = "#00358C";
-    document.getElementById('b6').style.backgroundColor = "white";
-    document.getElementById('b7').style.backgroundColor = "#00358C";
-    document.getElementById('b8').style.backgroundColor = "white";
+    header.style.backgroundColor = '#F7002A';
+    footer.style.backgroundColor = '#F7002A';
+    conheader.style.color = 'white';
+    navcolor.style.backgroundColor = '#00358C';
+    hamburger.style.backgroundColor = '#00358C';
+    backgroundMenu.style.backgroundColor = '#F7002A';
+    b1.classList.replace('block', 'holidayblock');
+    b2.classList.replace('block', 'holidayblock');
+    b3.classList.replace('block', 'holidayblock');
+    b4.classList.replace('block', 'holidayblock');
+    b5.classList.replace('block', 'holidayblock');
+    b6.classList.replace('block', 'holidayblock');
+    b7.classList.replace('block', 'holidayblock');
+    b8.classList.replace('block', 'holidayblock');
+    b1.style.backgroundColor = "white";
+    b2.style.backgroundColor = "#00358C";
+    b3.style.backgroundColor = "white";
+    b4.style.backgroundColor = "#00358C";
+    b5.style.backgroundColor = "#00358C";
+    b6.style.backgroundColor = "white";
+    b7.style.backgroundColor = "#00358C";
+    b8.style.backgroundColor = "white";
 
-    document.getElementById('scrollmessage').innerHTML = "'Our nation owes a debt to its fallen heroes that we can never fully repay.'";
+    scrollmessage.innerHTML = "'Our nation owes a debt to its fallen heroes that we can never fully repay.'";
 
-    document.getElementById('eagle').src = 'memorial.png';
+    eagle.src = 'memorial.png';
 
 
 }
@@ -184,33 +205,33 @@ if (date.getMonth() === 4 && date.getDate() === 25) {
 // // Independence Day
 
 if (date.getMonth() === 6 && date.getDate() === 4) {
-    document.getElementById('header').style.backgroundColor = '#F7002A';
-    document.getElementById('footer').style.backgroundColor = '#F7002A';
-    document.getElementById('conheader').style.color = 'white';
-    document.getElementById('navcolor').style.backgroundColor = '#00358C';
-    document.getElementById('hamburger').style.backgroundColor = '#00358C';
-    document.getElementById('backgroundMenu').style.backgroundColor = '#F7002A';
-    document.getElementById('b1').classList.replace('block', 'holidayblock');
-    document.getElementById('b2').classList.replace('block', 'holidayblock');
-    document.getElementById('b3').classList.replace('block', 'holidayblock');
-    document.getElementById('b4').classList.replace('block', 'holidayblock');
-    document.getElementById('b5').classList.replace('block', 'holidayblock');
-    document.getElementById('b6').classList.replace('block', 'holidayblock');
-    document.getElementById('b7').classList.replace('block', 'holidayblock');
-    document.getElementById('b8').classList.replace('block', 'holidayblock');
-    document.getElementById('b1').style.backgroundColor = "white";
-    document.getElementById('b2').style.backgroundColor = "#00358C";
-    document.getElementById('b3').style.backgroundColor = "white";
-    document.getElementById('b4').style.backgroundColor = "#00358C";
-    document.getElementById('b5').style.backgroundColor = "#00358C";
-    document.getElementById('b6').style.backgroundColor = "white";
-    document.getElementById('b7').style.backgroundColor = "#00358C";
-    document.getElementById('b8').style.backgroundColor = "white";
 
-    document.getElementById('scrollmessage').innerHTML = "HAPPY 4TH OF JULY!";
+    header.style.backgroundColor = '#F7002A';
+    footer.style.backgroundColor = '#F7002A';
+    conheader.style.color = 'white';
+    navcolor.style.backgroundColor = '#00358C';
+    hamburger.style.backgroundColor = '#00358C';
+    backgroundMenu.style.backgroundColor = '#F7002A';
+    b1.classList.replace('block', 'holidayblock');
+    b2.classList.replace('block', 'holidayblock');
+    b3.classList.replace('block', 'holidayblock');
+    b4.classList.replace('block', 'holidayblock');
+    b5.classList.replace('block', 'holidayblock');
+    b6.classList.replace('block', 'holidayblock');
+    b7.classList.replace('block', 'holidayblock');
+    b8.classList.replace('block', 'holidayblock');
+    b1.style.backgroundColor = "white";
+    b2.style.backgroundColor = "#00358C";
+    b3.style.backgroundColor = "white";
+    b4.style.backgroundColor = "#00358C";
+    b5.style.backgroundColor = "#00358C";
+    b6.style.backgroundColor = "white";
+    b7.style.backgroundColor = "#00358C";
+    b8.style.backgroundColor = "white";
 
-    document.getElementById('eagle').src = '4th.png';
+    scrollmessage.innerHTML = "HAPPY 4TH OF JULY!";
 
+    eagle.src = '4th.png';
 
 }
 
@@ -218,11 +239,11 @@ if (date.getMonth() === 6 && date.getDate() === 4) {
 
 if (date.getMonth() === 8 && date.getDate() === 7) {
 
-    document.getElementById('conheader').style.color = 'white';
+    conheader.style.color = 'white';
 
-    document.getElementById('scrollmessage').innerHTML = "HAPPY LABOR DAY!";
+    scrollmessage.innerHTML = "HAPPY LABOR DAY!";
 
-    document.getElementById('eagle').src = 'labor.png';
+    eagle.src = 'labor.png';
 
 
 }
@@ -230,65 +251,64 @@ if (date.getMonth() === 8 && date.getDate() === 7) {
 // // Veterans Day
 
 if (date.getMonth() === 10 && date.getDate() === 11) {
-    document.getElementById('header').style.backgroundColor = '#F7002A';
-    document.getElementById('footer').style.backgroundColor = '#F7002A';
-    document.getElementById('conheader').style.color = 'white';
-    document.getElementById('navcolor').style.backgroundColor = '#00358C';
-    document.getElementById('hamburger').style.backgroundColor = '#00358C';
-    document.getElementById('backgroundMenu').style.backgroundColor = '#F7002A';
-    document.getElementById('b1').classList.replace('block', 'holidayblock');
-    document.getElementById('b2').classList.replace('block', 'holidayblock');
-    document.getElementById('b3').classList.replace('block', 'holidayblock');
-    document.getElementById('b4').classList.replace('block', 'holidayblock');
-    document.getElementById('b5').classList.replace('block', 'holidayblock');
-    document.getElementById('b6').classList.replace('block', 'holidayblock');
-    document.getElementById('b7').classList.replace('block', 'holidayblock');
-    document.getElementById('b8').classList.replace('block', 'holidayblock');
-    document.getElementById('b1').style.backgroundColor = "white";
-    document.getElementById('b2').style.backgroundColor = "#00358C";
-    document.getElementById('b3').style.backgroundColor = "white";
-    document.getElementById('b4').style.backgroundColor = "#00358C";
-    document.getElementById('b5').style.backgroundColor = "#00358C";
-    document.getElementById('b6').style.backgroundColor = "white";
-    document.getElementById('b7').style.backgroundColor = "#00358C";
-    document.getElementById('b8').style.backgroundColor = "white";
+    header.style.backgroundColor = '#F7002A';
+    footer.style.backgroundColor = '#F7002A';
+    conheader.style.color = 'white';
+    navcolor.style.backgroundColor = '#00358C';
+    hamburger.style.backgroundColor = '#00358C';
+    backgroundMenu.style.backgroundColor = '#F7002A';
+    b1.classList.replace('block', 'holidayblock');
+    b2.classList.replace('block', 'holidayblock');
+    b3.classList.replace('block', 'holidayblock');
+    b4.classList.replace('block', 'holidayblock');
+    b5.classList.replace('block', 'holidayblock');
+    b6.classList.replace('block', 'holidayblock');
+    b7.classList.replace('block', 'holidayblock');
+    b8.classList.replace('block', 'holidayblock');
+    b1.style.backgroundColor = "white";
+    b2.style.backgroundColor = "#00358C";
+    b3.style.backgroundColor = "white";
+    b4.style.backgroundColor = "#00358C";
+    b5.style.backgroundColor = "#00358C";
+    b6.style.backgroundColor = "white";
+    b7.style.backgroundColor = "#00358C";
+    b8.style.backgroundColor = "white";
 
-    document.getElementById('scrollmessage').innerHTML = "To our men and women in uniform, past, present, and future, God bless you and thank you.";
+    scrollmessage.innerHTML = "To our men and women in uniform, past, present, and future, God bless you and thank you.";
 
-    document.getElementById('eagle').src = 'veterans.png';
-
+    eagle.src = 'veterans.png';
 
 }
 
 // ThanksGiving
 
 if (date.getMonth() === 10 && date.getDate() === 26) {
-    document.getElementById('header').style.backgroundColor = '#E37025';
-    document.getElementById('footer').style.backgroundColor = '#E37025';
-    document.getElementById('conheader').style.color = 'white';
-    document.getElementById('navcolor').style.backgroundColor = '#969F39';
-    document.getElementById('hamburger').style.backgroundColor = '#969F39';
-    document.getElementById('backgroundMenu').style.backgroundColor = '#E37025';
-    document.getElementById('b1').classList.replace('block', 'holidayblock');
-    document.getElementById('b2').classList.replace('block', 'holidayblock');
-    document.getElementById('b3').classList.replace('block', 'holidayblock');
-    document.getElementById('b4').classList.replace('block', 'holidayblock');
-    document.getElementById('b5').classList.replace('block', 'holidayblock');
-    document.getElementById('b6').classList.replace('block', 'holidayblock');
-    document.getElementById('b7').classList.replace('block', 'holidayblock');
-    document.getElementById('b8').classList.replace('block', 'holidayblock');
-    document.getElementById('b1').style.backgroundColor = "#F6B118";
-    document.getElementById('b2').style.backgroundColor = "#8B5D3C";
-    document.getElementById('b3').style.backgroundColor = "#F6B118";
-    document.getElementById('b4').style.backgroundColor = "#8B5D3C";
-    document.getElementById('b5').style.backgroundColor = "#8B5D3C";
-    document.getElementById('b6').style.backgroundColor = "#F6B118";
-    document.getElementById('b7').style.backgroundColor = "#8B5D3C";
-    document.getElementById('b8').style.backgroundColor = "#F6B118";
+    header.style.backgroundColor = '#E37025';
+    footer.style.backgroundColor = '#E37025';
+    conheader.style.color = 'white';
+    navcolor.style.backgroundColor = '#969F39';
+    hamburger.style.backgroundColor = '#969F39';
+    backgroundMenu.style.backgroundColor = '#E37025';
+    b1.classList.replace('block', 'holidayblock');
+    b2.classList.replace('block', 'holidayblock');
+    b3.classList.replace('block', 'holidayblock');
+    b4.classList.replace('block', 'holidayblock');
+    b5.classList.replace('block', 'holidayblock');
+    b6.classList.replace('block', 'holidayblock');
+    b7.classList.replace('block', 'holidayblock');
+    b8.classList.replace('block', 'holidayblock');
+    b1.style.backgroundColor = "#F6B118";
+    b2.style.backgroundColor = "#8B5D3C";
+    b3.style.backgroundColor = "#F6B118";
+    b4.style.backgroundColor = "#8B5D3C";
+    b5.style.backgroundColor = "#8B5D3C";
+    b6.style.backgroundColor = "#F6B118";
+    b7.style.backgroundColor = "#8B5D3C";
+    b8.style.backgroundColor = "#F6B118";
 
-    document.getElementById('scrollmessage').innerHTML = "HAPPY THANKSGIVING!";
+    scrollmessage.innerHTML = "HAPPY THANKSGIVING!";
 
-    document.getElementById('eagle').src = 'turkey.png';
+    eagle.src = 'turkey.png';
 
 
 }

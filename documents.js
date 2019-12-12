@@ -13,25 +13,35 @@ $(window).resize(function () {
 
 });
 
+//Global Variables
 
 let date = new Date();
+
+let header = document.getElementById('header');
+let footer = document.getElementById('footer');
+let conheader = document.getElementById('conheader');
+let navcolor = document.getElementById('navcolor');
+let hamburger = document.getElementById('hamburger');
+let backgroundMenu = document.getElementById('backgroundMenu');
+
+let scrollmessage = document.getElementById('scrollmessage');
+let eagle = document.getElementById('eagle');
+
+
 
 //Christmas Home Page
 
 if (date.getMonth() === 11 && date.getDate() === 25) {
 
-    document.getElementById('header').style.backgroundColor = '#165B33';
-    document.getElementById('footer').style.backgroundColor = '#165B33';
-    document.getElementById('navcolor').style.backgroundColor = '#BB2528';
-    document.getElementById('hamburger').style.backgroundColor = '#BB2528';
-    document.getElementById('backgroundMenu').style.backgroundColor = '#165B33';
+    header.style.backgroundColor = '#165B33';
+    footer.style.backgroundColor = '#165B33';
+    navcolor.style.backgroundColor = '#BB2528';
+    hamburger.style.backgroundColor = '#BB2528';
+    backgroundMenu.style.backgroundColor = '#165B33';
 
+    scrollmessage.innerHTML = "MERRY CHRISTMAS AND HAPPY HOLIDAYS!";
 
-
-    document.getElementById('scrollmessage').innerHTML = "MERRY CHRISTMAS AND HAPPY HOLIDAYS!";
-
-    document.getElementById('eagle').src = 'Santa.png';
-
+    eagle.src = 'Santa.png';
 
 };
 
@@ -39,142 +49,131 @@ if (date.getMonth() === 11 && date.getDate() === 25) {
 
 
 if (date.getMonth() === 0 && date.getDate() === 1) {
-    document.getElementById('header').style.backgroundColor = 'darkgoldenrod';
-    document.getElementById('footer').style.backgroundColor = 'darkgoldenrod';
-    document.getElementById('navcolor').style.backgroundColor = 'silver';
-    document.getElementById('hamburger').style.backgroundColor = 'silver';
-    document.getElementById('backgroundMenu').style.backgroundColor = 'darkgoldenrod';
 
+    header.style.backgroundColor = 'darkgoldenrod';
+    footer.style.backgroundColor = 'darkgoldenrod';
+    navcolor.style.backgroundColor = 'silver';
+    hamburger.style.backgroundColor = 'silver';
+    backgroundMenu.style.backgroundColor = 'darkgoldenrod';
 
+    scrollmessage.innerHTML = "HAPPY NEW YEAR!";
 
+    eagle.src = 'newyear.png';
 
-    document.getElementById('scrollmessage').innerHTML = "HAPPY NEW YEAR!";
-
-    document.getElementById('eagle').src = 'newyear.png';
-
-
-}
+};
 
 
 // Martin Luther King JR
 
 if (date.getMonth() === 0 && date.getDate() === 20) {
-    document.getElementById('header').style.backgroundColor = '#FFFFFF';
-    document.getElementById('footer').style.backgroundColor = 'black';
-    document.getElementById('conheader').style.color = 'black';
-    document.getElementById('navcolor').style.backgroundColor = 'silver';
-    document.getElementById('hamburger').style.backgroundColor = 'silver';
-    document.getElementById('backgroundMenu').style.backgroundColor = 'black';
 
+    header.style.backgroundColor = '#FFFFFF';
+    footer.style.backgroundColor = 'black';
+    conheader.style.color = 'black';
+    navcolor.style.backgroundColor = 'silver';
+    hamburger.style.backgroundColor = 'silver';
+    backgroundMenu.style.backgroundColor = 'black';
 
+    scrollmessage.innerHTML = "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.";
 
-    document.getElementById('scrollmessage').innerHTML = "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.";
+    eagle.src = 'mlk.png';
 
-    document.getElementById('eagle').src = 'mlk.png';
-
-
-}
+};
 
 // George Washingtons Birthday
 
 if (date.getMonth() === 1 && date.getDate() === 17) {
-    document.getElementById('header').style.backgroundColor = '#F7002A';
-    document.getElementById('footer').style.backgroundColor = '#F7002A';
-    document.getElementById('conheader').style.color = 'white';
-    document.getElementById('navcolor').style.backgroundColor = '#00358C';
-    document.getElementById('hamburger').style.backgroundColor = '#00358C';
-    document.getElementById('backgroundMenu').style.backgroundColor = '#F7002A';
 
+    header.style.backgroundColor = '#F7002A';
+    footer.style.backgroundColor = '#F7002A';
+    conheader.style.color = 'white';
+    navcolor.style.backgroundColor = '#00358C';
+    hamburger.style.backgroundColor = '#00358C';
+    backgroundMenu.style.backgroundColor = '#F7002A';
 
-    document.getElementById('scrollmessage').innerHTML = "I hope I shall possess firmness and virtue enough to maintain what I consider the most enviable of all titles, the character of an honest man.";
+    scrollmessage.innerHTML = "I hope I shall possess firmness and virtue enough to maintain what I consider the most enviable of all titles, the character of an honest man.";
 
-    document.getElementById('eagle').src = 'george.png';
+    eagle.src = 'george.png';
 
-
-}
+};
 
 // Memorial Day
 
 if (date.getMonth() === 4 && date.getDate() === 25) {
-    document.getElementById('header').style.backgroundColor = '#F7002A';
-    document.getElementById('footer').style.backgroundColor = '#F7002A';
-    document.getElementById('conheader').style.color = 'white';
-    document.getElementById('navcolor').style.backgroundColor = '#00358C';
-    document.getElementById('hamburger').style.backgroundColor = '#00358C';
-    document.getElementById('backgroundMenu').style.backgroundColor = '#F7002A';
 
+    header.style.backgroundColor = '#F7002A';
+    footer.style.backgroundColor = '#F7002A';
+    conheader.style.color = 'white';
+    navcolor.style.backgroundColor = '#00358C';
+    hamburger.style.backgroundColor = '#00358C';
+    backgroundMenu.style.backgroundColor = '#F7002A';
 
-    document.getElementById('scrollmessage').innerHTML = "'Our nation owes a debt to its fallen heroes that we can never fully repay.'";
+    scrollmessage.innerHTML = "'Our nation owes a debt to its fallen heroes that we can never fully repay.'";
 
-    document.getElementById('eagle').src = 'memorial.png';
+    eagle.src = 'memorial.png';
 
-
-}
+};
 
 
 // Independence Day
 
 if (date.getMonth() === 6 && date.getDate() === 4) {
-    document.getElementById('header').style.backgroundColor = '#F7002A';
-    document.getElementById('footer').style.backgroundColor = '#F7002A';
-    document.getElementById('conheader').style.color = 'white';
-    document.getElementById('navcolor').style.backgroundColor = '#00358C';
-    document.getElementById('hamburger').style.backgroundColor = '#00358C';
-    document.getElementById('backgroundMenu').style.backgroundColor = '#F7002A';
 
+    header.style.backgroundColor = '#F7002A';
+    footer.style.backgroundColor = '#F7002A';
+    conheader.style.color = 'white';
+    navcolor.style.backgroundColor = '#00358C';
+    hamburger.style.backgroundColor = '#00358C';
+    backgroundMenu.style.backgroundColor = '#F7002A';
 
-    document.getElementById('scrollmessage').innerHTML = "HAPPY 4TH OF JULY!";
+    scrollmessage.innerHTML = "HAPPY 4TH OF JULY!";
 
-    document.getElementById('eagle').src = '4th.png';
+    eagle.src = '4th.png';
 
-
-}
+};
 
 // Labor Day
 
 if (date.getMonth() === 8 && date.getDate() === 7) {
 
-    document.getElementById('conheader').style.color = 'white';
+    conheader.style.color = 'white';
 
-    document.getElementById('scrollmessage').innerHTML = "HAPPY LABOR DAY!";
+    scrollmessage.innerHTML = "HAPPY LABOR DAY!";
 
-    document.getElementById('eagle').src = 'labor.png';
+    eagle.src = 'labor.png';
 
-
-}
+};
 
 // Veterans Day
 
 if (date.getMonth() === 10 && date.getDate() === 11) {
-    document.getElementById('header').style.backgroundColor = '#F7002A';
-    document.getElementById('footer').style.backgroundColor = '#F7002A';
-    document.getElementById('conheader').style.color = 'white';
-    document.getElementById('navcolor').style.backgroundColor = '#00358C';
-    document.getElementById('hamburger').style.backgroundColor = '#00358C';
-    document.getElementById('backgroundMenu').style.backgroundColor = '#F7002A';
 
+    header.style.backgroundColor = '#F7002A';
+    footer.style.backgroundColor = '#F7002A';
+    conheader.style.color = 'white';
+    navcolor.style.backgroundColor = '#00358C';
+    hamburger.style.backgroundColor = '#00358C';
+    backgroundMenu.style.backgroundColor = '#F7002A';
 
-    document.getElementById('scrollmessage').innerHTML = "To our men and women in uniform, past, present, and future, God bless you and thank you.";
+    scrollmessage.innerHTML = "To our men and women in uniform, past, present, and future, God bless you and thank you.";
 
-    document.getElementById('eagle').src = 'veterans.png';
+    eagle.src = 'veterans.png';
 
-
-}
+};
 
 // ThanksGiving
 
 if (date.getMonth() === 10 && date.getDate() === 26) {
-    document.getElementById('header').style.backgroundColor = '#E37025';
-    document.getElementById('footer').style.backgroundColor = '#E37025';
-    document.getElementById('conheader').style.color = 'white';
-    document.getElementById('navcolor').style.backgroundColor = '#969F39';
-    document.getElementById('hamburger').style.backgroundColor = '#969F39';
-    document.getElementById('backgroundMenu').style.backgroundColor = '#E37025';
 
+    header.style.backgroundColor = '#E37025';
+    footer.style.backgroundColor = '#E37025';
+    conheader.style.color = 'white';
+    navcolor.style.backgroundColor = '#969F39';
+    hamburger.style.backgroundColor = '#969F39';
+    backgroundMenu.style.backgroundColor = '#E37025';
 
-    document.getElementById('scrollmessage').innerHTML = "HAPPY THANKSGIVING!";
+    scrollmessage.innerHTML = "HAPPY THANKSGIVING!";
 
-    document.getElementById('eagle').src = 'turkey.png';
+    eagle.src = 'turkey.png';
 
-
-}
+};
